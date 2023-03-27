@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
     <Routes>
 
-      <Route index path="/" element={ <><Hoja/></>}/>
+      <Route index path="/HojaVid/" element={ <><Hoja/></>}/>
     
     </Routes>
   </BrowserRouter>
