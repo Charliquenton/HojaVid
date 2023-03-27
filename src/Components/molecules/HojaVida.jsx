@@ -1,25 +1,20 @@
-import foto from "../../assets/img/foto.jpg";
+
+import Columna1 from "../atomos/Columna1";
+import Columna2 from "../atomos/Columna2";
+import "../../assets/css/HojaVida.css";
 
 function HojaVida() {
     return ( 
         <div className="div-father">
 
-            <div className="colum1">
-                <div>
-                    <img src={foto} alt="" />
-                </div>
+            <>
+            
 
-                <div>
-                    <h1>contactos</h1>
-                    <p>Telefono: 9681310329</p>
-                    <p>Facebook: Andresmartinez</p>
-                    <p>Correo: cmartinezmorales@gmail.com</p>
-                    
-                </div>
-            </div>
+            <Columna1/>
 
-            <div className="colum2"></div>
+            <Columna2/>
 
+            </>
 
         </div>
      );
