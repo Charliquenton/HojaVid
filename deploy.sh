@@ -20,9 +20,10 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
+# if you are deploying to https://Charliquenton.github.io
+# git push -f git@github.com:Charliquenton/HojaVid.github.io.git main
 
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-  git push -f git@github.com:Charliquenton/HojaVid.git main:gh-pages
+# if you are deploying to https://Charliquenton.github.io/HojaVid
+# git push -f git@github.com:Charliquenton/HojaVid.git main:gh-pages
 
 cd -
