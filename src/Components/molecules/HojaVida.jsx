@@ -1,4 +1,4 @@
-
+import foto from "../../assets/img/foto.jpg";
 
 function HojaVida() {
     return ( 
@@ -6,7 +6,7 @@ function HojaVida() {
 
             <div className="colum1">
                 <div>
-                    <img src="" alt="" />
+                    <img src={foto} alt="" />
                 </div>
 
                 <div>
